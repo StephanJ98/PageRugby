@@ -9,8 +9,11 @@ header div.tete{
 	border: 3px solid black;
 	border-radius: 10px;
 }
-header div.tete h1{
-	color: darkred;
+header div.tete img{
+	display: inline-block;
+	width: 48%;
+	height: 200px;
+	border-radius: 100px;
 }
 header div.tete div.lien{
 	color: darkblue;
@@ -34,7 +37,7 @@ div.corps div.nouv{
 	border-radius: 10px;
 }
 footer{
-	position: fixed;
+	/*position: fixed;*/
 	bottom: 0;
 	color: darkred;
 	background-color: darkblue;
