@@ -13,8 +13,15 @@ header div.tete h1{
 	color: darkred;
 }
 header div.tete div.lien{
+	color: darkblue;
 	background-color: lightblue;
 	border: 3px solid black;
+	border-radius: 10px;
+}
+header div.tete div.lien:hover{
+	color: lightblue;
+	background-color: darkblue;
+	border: 3px solid lightblue;
 	border-radius: 10px;
 }
 div.corps h2{
