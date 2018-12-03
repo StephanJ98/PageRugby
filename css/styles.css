@@ -35,9 +35,17 @@ div.corps div.nouv{
 	background-color: darkblue;
 	border: 3px solid black;
 	border-radius: 10px;
+	margin: 1px;
+	margin-bottom: 9px;
+}
+div.corps div.nouv:hover{
+	color: darkblue;
+	background-color: lightblue;
+	border: 3px solid black;
+	border-radius: 10px;
 }
 footer{
-	/*position: fixed;*/
+	position: fixed;
 	bottom: 0;
 	color: darkred;
 	background-color: darkblue;
