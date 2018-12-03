@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+body{
+	background-color: grey;
+	text-align: center;
+	font-family: 'Niramit', sans-serif;
+}
+header div.tete{
+	background-color: darkblue;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+header div.tete h1{
+	color: darkred;
+}
+header div.tete div.lien{
+	background-color: lightblue;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+div.corps h2{
+	color: darkred;
+}
+div.corps div.nouv{
+	color: lightblue;
+	background-color: darkblue;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	color: darkred;
+	background-color: darkblue;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+footer p{
+	font-weight: bolder;
+}
