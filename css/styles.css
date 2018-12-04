@@ -15,6 +15,14 @@ header div.tete img{
 	height: 200px;
 	border-radius: 100px;
 }
+header div.tete div.lien a{
+	color: darkblue;
+	text-decoration-style: none;
+	text-decoration: none;
+}
+header div.tete div.lien a:hover{
+	color: lightblue;
+}
 header div.tete div.lien{
 	color: darkblue;
 	background-color: lightblue;
@@ -38,11 +46,23 @@ div.corps div.nouv{
 	margin: 1px;
 	margin-bottom: 9px;
 }
+div.corps div.nouv a{
+	color: lightblue;
+	text-decoration-style: none;
+	text-decoration: none;
+}
+div.corps div.nouv a:hover{
+	color: darkblue;
+}
 div.corps div.nouv:hover{
 	color: darkblue;
 	background-color: lightblue;
 	border: 3px solid black;
 	border-radius: 10px;
+}
+div.corps div.nouv img{
+	width: 75%; 
+	border-radius: 30px
 }
 footer{
 	position: fixed;
