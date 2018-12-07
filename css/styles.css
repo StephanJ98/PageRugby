@@ -9,12 +9,12 @@ header div.tete{
 	border: 3px solid black;
 	border-radius: 10px;
 }
-/*header div.tete img{
+header div.tete img{
 	display: inline-block;
 	width: 49%;
-	height: 200px;
+	height: 20px;
 	border-radius: 100px;
-}*/
+}
 header div.tete div.lien a{
 	color: darkblue;
 	text-decoration-style: none;
