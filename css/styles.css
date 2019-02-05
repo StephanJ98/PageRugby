@@ -9,9 +9,7 @@ body{
 	font-family: 'Niramit', sans-serif;
 }
 header div.tete{
-	background-color: darkblue;
-	border: 3px solid black;
-	border-radius: 10px;
+	background-color: transparent;
 }
 /*header div.tete img{
 	display: inline-block;
@@ -71,11 +69,12 @@ div.corps div.nouv img{
 footer{
 	position: fixed;
 	bottom: 0;
-	color: darkred;
+	color: darkorange;
 	background-color: darkblue;
 	border: 3px solid black;
 	border-radius: 10px;
 }
 footer p{
 	font-weight: bolder;
+	text-shadow: 1px 1px black;
 }
