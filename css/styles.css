@@ -37,6 +37,15 @@ header div.tete div.lien:hover{
 	border: 3px solid lightblue;
 	border-radius: 10px;
 }
+.event{
+	border: 3px solid black;
+	border-radius: 10px;
+	background-color: darkblue;
+	display: block;
+}
+.event:hover{
+	background-color: red;
+}
 div.corps h2{
 	color: darkred;
 }
